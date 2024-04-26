@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="engineer">
 
 <head>
   <meta charset="UTF-8" />
@@ -20,8 +20,15 @@
 </head>
 
 <body>
-  <div style="background-color: rgb(14, 222, 153); border-radius: 50%">
+  <div style="background-color: rgb(14, 222, 153); border-radius: 5px;">
     <h1 style="text-align: center">Portfolio</h1>
+
+    <div style="font-size: 25px;" class="navbar">
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Services">Services</a>
+      <a href="#Contact">Contact</a>
+    </div>
   </div>
   <div style="display: flex; justify-content: center">
     <div class="box" style="
@@ -29,6 +36,7 @@
           justify-content: space-evenly;
           border: 5px solid;
           border-radius: 5%;
+          margin: 80px;
         ">
       <h1 style="padding-top: 200px">I am software Engineer</h1>
       <img src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -56,7 +64,7 @@
             margin: 50px;
           ">
         <p>I am student of itinfo acadmy.</p>
-        <p>my clg name is vtc in miraj.</p>
+        <p>I am software engineer </p>
       </div>
     </div>
   </div>
@@ -66,9 +74,23 @@
         margin: 50px;
         background-color: bisque;
       border-radius: 20px;">
+    <div class="no">
+      <h1>
+        SKILL
+      </h1>
+    </div>
+    <div style="display: flex;size: 1px;">
+      <div class="SKILL" style="padding-left: 30%">
+        <span class="skill-label">HTML</span>
+        <progress value="80" max="100"></progress>
+      </div>
+      <div class="no" style="padding-left: 30%">
+        <span class="skill-label">CSS</span>
+        <progress value="70" max="100"></progress>
+      </div>
 
-    <h1>SKILL</h1>
-    <p>.................</p>
+    </div>
+
   </div>
   <h1>PROJECT</h1>
   <div style="
@@ -130,29 +152,24 @@
         margin: 50px;
         background-color: rgb(84, 235, 54);border-radius: 20px;
       ">
-    <h1 style="font-size: 18px;">1 year </h1>
+    <h1 style="font-size: 18px;">1 year in itinfo acadmy </h1>
   </div>
-  <h1>CONTACT</h1>
-  <div style="
-        border: 1px solid rgb(31, 239, 62)    ; 
-        padding: 30px;
-        margin: 20px;
-        background-color: rgb(224, 231, 22);border-radius: 20px;
-      ">
-    <h3>
-      NUMBER:9876543210<img src="https://tse2.mm.bing.net/th?id=OIP.zDsa2MoFeghUwytLWnDKwwHaHa&pid=Api&P=0&h=180"
-        style="width: 30px; height: min-content" />
-    </h3>
-    <h3>MAIL:shriram@gmail.com
-      <img src="https://tse2.mm.bing.net/th?id=OIP.X96HZ4SK_kq-kETk2FxNXAHaHa&pid=Api&P=0&h=180"
-        style="width: 30px;height: min-content" />
-    </h3>
-    <h3>FACEBOOK:SAM
-      <img src="https://tse3.mm.bing.net/th?id=OIP.iWWVlwVOvSCiiaqYqcPZDAHaHP&pid=Api&P=0&h=180" style="width: 30px" />
-    </h3>
-    <h3>INSTAGRAM:SAM
-      <img src="https://tse1.mm.bing.net/th?id=OIP.eTq7qJuQeVeKNTz0n56kBQHaHa&pid=Api&P=0&h=180" style="width: 30px" />
-    </h3>
+  <h1>CONTACT US </h1>
+  <div action="mailto:your@email.com" method="post" enctype="text/plain">
+    <p1 class="name ">Name:</p1>
+    <input type="text" id="name" name="name">
+
+    <p1 class="email">Email:</p1>
+    <img src="https://tse2.mm.bing.net/th?id=OIP.X96HZ4SK_kq-kETk2FxNXAHaHa&pid=Api&P=0&h=180"
+      style="width: 30px;height: min-content" />
+    <input type="email" id="email" name="email">
+
+    <p1 class="message">Message:</p1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wILs7P97w6nOl4Z44y3l5rHsxGIKgQ45lA&s"
+      style="width: 30px;" />
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <input type="submit" value="Submit">
   </div>
 </body>
 
